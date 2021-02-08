@@ -19,18 +19,18 @@ When you begin interviewing for jobs, you will often encounter problems that hav
 
 ## Instructions and/or completion requirements
 
-- [ ] Implement the binary search algorithm in [searching.py](src/searching/searching.py) in a recursive fashion.
-- [ ] Test your implementation by running `test_searching.py`.
-- [ ] Read through the descriptions of the `merge_sort` algorithm in [Training Kit](https://learn.lambdaschool.com/cs/module/reccRh9h6ccXghfA4/).
-- [ ] Implement `merge_sort` in [sorting.py](src/sorting/sorting.py)
-- [ ] Test your implementation by running `test_sorting.py`.
+- [x] Implement the binary search algorithm in [searching.py](src/searching/searching.py) in a recursive fashion.
+- [x] Test your implementation by running `test_searching.py`.
+- [x] Read through the descriptions of the `merge_sort` algorithm in [Training Kit](https://learn.lambdaschool.com/cs/module/reccRh9h6ccXghfA4/).
+- [x] Implement `merge_sort` in [sorting.py](src/sorting/sorting.py)
+- [x] Test your implementation by running `test_sorting.py`.
 
 ## Stretch goals
 
-- [ ] Implement an order-agnostic binary search that correctly performs binary search an array sorted in either ascending order or descending order.
-- [ ] Test your order-agnostic binary search implementation by uncommenting the test in `test_searching.py`.
-- [ ] Implement an in-place version of `merge_sort` that does not allocate any additional memory. In other words, the space complexity for this function should be O(1).
-- [ ] Test your in-place merge sort implementation by uncommenting the test in `test_sorting.py`.
+- [x] Implement an order-agnostic binary search that correctly performs binary search an array sorted in either ascending order or descending order.
+- [x] Test your order-agnostic binary search implementation by uncommenting the test in `test_searching.py`.
+- [x] Implement an in-place version of `merge_sort` that does not allocate any additional memory. In other words, the space complexity for this function should be O(1).
+- [x] Test your in-place merge sort implementation by uncommenting the test in `test_sorting.py`.
 
 ## Tests
 
@@ -66,8 +66,8 @@ to complete the algorithm grows proportionately.
 But the _space_ complexity is `O(1)`. The additional space required to complete
 the algorithm was:
 
-* `result`: `O(1)`
-* `v`: `O(1)`
+- `result`: `O(1)`
+- `v`: `O(1)`
 
 And neither of those change in size regardless of how big list `data` is. `data`
 could have a zillion elements, and the algorithm would still only require space
@@ -89,9 +89,9 @@ def alg(data):
 
 Here we have more space allocated.
 
-* `result`: `O(1)`
-* `v`: `O(1)`
-* `new_data`: `O(n)`
+- `result`: `O(1)`
+- `v`: `O(1)`
+- `new_data`: `O(n)`
 
 `new_data` gets bigger as `data` gets bigger, so it's `O(n)`. So we have:
 
@@ -160,7 +160,7 @@ So the total space complexity for this algorithm is:
 Again, compare to the `O(1)` space complexity of the initial iterative solution.
 
 In some languages, notably
-[Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) and other
+[Lisp](<https://en.wikipedia.org/wiki/Lisp_(programming_language)>) and other
 [functional programming
 languages](https://en.wikipedia.org/wiki/Functional_programming), you can write
 recursive solutions with `O(1)` space complexity. These languages take advantage
